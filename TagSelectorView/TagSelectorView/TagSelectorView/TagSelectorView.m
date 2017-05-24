@@ -15,6 +15,7 @@
 }
 
 + (NSDictionary *)modelCustomPropertyMapper {
+    // 在此处是使用 YYModel 的数据转模型方法, 根据实际需要, 更换或者修改下方的是几键值对
     return @{@"title" : @"name",
              @"items" : @[@"rows",@"item"]};
 }
