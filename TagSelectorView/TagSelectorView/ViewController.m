@@ -11,7 +11,7 @@
 
 @interface ViewController ()
 
-@property (nonatomic, strong) TagSelectorModel *model;
+@property (nonatomic, strong) NSArray<TagSelectorModel *> *modelArray;
 
 @end
 
