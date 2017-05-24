@@ -107,4 +107,4 @@
         }
         @end
 
-- 如果不想自定义可以直接下载[Demo](https://github.com/camoufleur/ColorfulTabbar)，直接拖到工程中；
+- 如果不想自定义可以直接下载[Demo](https://github.com/camoufleur/DailyDevelopmentDemos/tree/master/ColorfulTabbar)，直接拖到工程中；
