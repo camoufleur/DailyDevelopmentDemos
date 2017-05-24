@@ -36,7 +36,7 @@
         [_tsView showSelectorView];
     } else {
         _tsView = [TagSelectorView showSelectorWithSelectorModel:_model completion:^(NSArray<TagSelectorModel *> *modelArray) {
-            NSLog(@"%@", modelArray);
+            NSLog(@"%@--%@", modelArray[0].title, modelArray[1].title);
         }];
     }
 }
