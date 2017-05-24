@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BD8E6C833577E2ADC554D5A /* libPods-TagSelectorViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C473A63231EFF89D3ADFF8 /* libPods-TagSelectorViewUITests.a */; };
+		AA13CD771E71430400E623B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA13CD761E71430400E623B6 /* main.m */; };
+		AA13CD7A1E71430400E623B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA13CD791E71430400E623B6 /* AppDelegate.m */; };
+		AA13CD7D1E71430400E623B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA13CD7C1E71430400E623B6 /* ViewController.m */; };
+		AA13CD801E71430400E623B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA13CD7E1E71430400E623B6 /* Main.storyboard */; };
+		AA13CD821E71430400E623B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA13CD811E71430400E623B6 /* Assets.xcassets */; };
+		AA13CD851E71430400E623B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA13CD831E71430400E623B6 /* LaunchScreen.storyboard */; };
+		AA13CD901E71430400E623B6 /* TagSelectorViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA13CD8F1E71430400E623B6 /* TagSelectorViewTests.m */; };
+		AA13CD9B1E71430400E623B6 /* TagSelectorViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA13CD9A1E71430400E623B6 /* TagSelectorViewUITests.m */; };
+		AA13CDAA1E71446000E623B6 /* TagSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA13CDA91E71446000E623B6 /* TagSelectorView.m */; };
+		AA13CDAC1E71523200E623B6 /* Untitled.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA13CDAB1E71523200E623B6 /* Untitled.plist */; };
+		AA13CDAF1E71529E00E623B6 /* SelfDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA13CDAE1E71529E00E623B6 /* SelfDataModel.m */; };
+		D9C3D26F07455B1F87330F05 /* libPods-TagSelectorViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA37B6DB1383D6304BA0DE3E /* libPods-TagSelectorViewTests.a */; };
+		DCB087E8A282688661EF05B9 /* libPods-TagSelectorView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCD1141DAAD0F184EA789C4 /* libPods-TagSelectorView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA13CD8C1E71430400E623B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA13CD6A1E71430400E623B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA13CD711E71430400E623B6;
+			remoteInfo = TagSelectorView;
+		};
+		AA13CD971E71430400E623B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA13CD6A1E71430400E623B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA13CD711E71430400E623B6;
+			remoteInfo = TagSelectorView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55991947E3F7260F3FEE89FD /* Pods-TagSelectorViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagSelectorViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TagSelectorViewTests/Pods-TagSelectorViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		57C473A63231EFF89D3ADFF8 /* libPods-TagSelectorViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TagSelectorViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A490259FE557EB4395969B9 /* Pods-TagSelectorViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagSelectorViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TagSelectorViewUITests/Pods-TagSelectorViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5C802C9DFBF9FA66A85A942C /* Pods-TagSelectorView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagSelectorView.release.xcconfig"; path = "Pods/Target Support Files/Pods-TagSelectorView/Pods-TagSelectorView.release.xcconfig"; sourceTree = "<group>"; };
+		609ECA5CCB9D974A2EC1CE22 /* Pods-TagSelectorView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagSelectorView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TagSelectorView/Pods-TagSelectorView.debug.xcconfig"; sourceTree = "<group>"; };
+		889C28588EF66406A043750C /* Pods-TagSelectorViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagSelectorViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TagSelectorViewUITests/Pods-TagSelectorViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		963FACE9BCB3591DAD389B05 /* Pods-TagSelectorViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagSelectorViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TagSelectorViewTests/Pods-TagSelectorViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9BCD1141DAAD0F184EA789C4 /* libPods-TagSelectorView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TagSelectorView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA13CD721E71430400E623B6 /* TagSelectorView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagSelectorView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA13CD761E71430400E623B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA13CD781E71430400E623B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA13CD791E71430400E623B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA13CD7B1E71430400E623B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA13CD7C1E71430400E623B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA13CD7F1E71430400E623B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA13CD811E71430400E623B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA13CD841E71430400E623B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA13CD861E71430400E623B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA13CD8B1E71430400E623B6 /* TagSelectorViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagSelectorViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA13CD8F1E71430400E623B6 /* TagSelectorViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagSelectorViewTests.m; sourceTree = "<group>"; };
+		AA13CD911E71430400E623B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA13CD961E71430400E623B6 /* TagSelectorViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagSelectorViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA13CD9A1E71430400E623B6 /* TagSelectorViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagSelectorViewUITests.m; sourceTree = "<group>"; };
+		AA13CD9C1E71430400E623B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA13CDA81E71446000E623B6 /* TagSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagSelectorView.h; sourceTree = "<group>"; };
+		AA13CDA91E71446000E623B6 /* TagSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagSelectorView.m; sourceTree = "<group>"; };
+		AA13CDAB1E71523200E623B6 /* Untitled.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Untitled.plist; sourceTree = "<group>"; };
+		AA13CDAD1E71529E00E623B6 /* SelfDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfDataModel.h; sourceTree = "<group>"; };
+		AA13CDAE1E71529E00E623B6 /* SelfDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfDataModel.m; sourceTree = "<group>"; };
+		EA37B6DB1383D6304BA0DE3E /* libPods-TagSelectorViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TagSelectorViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA13CD6F1E71430400E623B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB087E8A282688661EF05B9 /* libPods-TagSelectorView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA13CD881E71430400E623B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C3D26F07455B1F87330F05 /* libPods-TagSelectorViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA13CD931E71430400E623B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD8E6C833577E2ADC554D5A /* libPods-TagSelectorViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EC1008E6DBE5D7043469718 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				609ECA5CCB9D974A2EC1CE22 /* Pods-TagSelectorView.debug.xcconfig */,
+				5C802C9DFBF9FA66A85A942C /* Pods-TagSelectorView.release.xcconfig */,
+				963FACE9BCB3591DAD389B05 /* Pods-TagSelectorViewTests.debug.xcconfig */,
+				55991947E3F7260F3FEE89FD /* Pods-TagSelectorViewTests.release.xcconfig */,
+				889C28588EF66406A043750C /* Pods-TagSelectorViewUITests.debug.xcconfig */,
+				5A490259FE557EB4395969B9 /* Pods-TagSelectorViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA13CD691E71430400E623B6 = {
+			isa = PBXGroup;
+			children = (
+				AA13CD741E71430400E623B6 /* TagSelectorView */,
+				AA13CD8E1E71430400E623B6 /* TagSelectorViewTests */,
+				AA13CD991E71430400E623B6 /* TagSelectorViewUITests */,
+				AA13CD731E71430400E623B6 /* Products */,
+				4EC1008E6DBE5D7043469718 /* Pods */,
+				B6C49DE9D3693C47AA27810D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA13CD731E71430400E623B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA13CD721E71430400E623B6 /* TagSelectorView.app */,
+				AA13CD8B1E71430400E623B6 /* TagSelectorViewTests.xctest */,
+				AA13CD961E71430400E623B6 /* TagSelectorViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA13CD741E71430400E623B6 /* TagSelectorView */ = {
+			isa = PBXGroup;
+			children = (
+				AA13CD781E71430400E623B6 /* AppDelegate.h */,
+				AA13CD791E71430400E623B6 /* AppDelegate.m */,
+				AA13CD7B1E71430400E623B6 /* ViewController.h */,
+				AA13CD7C1E71430400E623B6 /* ViewController.m */,
+				AA13CDAD1E71529E00E623B6 /* SelfDataModel.h */,
+				AA13CDAE1E71529E00E623B6 /* SelfDataModel.m */,
+				AA13CD7E1E71430400E623B6 /* Main.storyboard */,
+				AA13CDA81E71446000E623B6 /* TagSelectorView.h */,
+				AA13CDA91E71446000E623B6 /* TagSelectorView.m */,
+				AA13CDAB1E71523200E623B6 /* Untitled.plist */,
+				AA13CD751E71430400E623B6 /* Supporting Files */,
+			);
+			path = TagSelectorView;
+			sourceTree = "<group>";
+		};
+		AA13CD751E71430400E623B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA13CD811E71430400E623B6 /* Assets.xcassets */,
+				AA13CD831E71430400E623B6 /* LaunchScreen.storyboard */,
+				AA13CD861E71430400E623B6 /* Info.plist */,
+				AA13CD761E71430400E623B6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA13CD8E1E71430400E623B6 /* TagSelectorViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA13CD8F1E71430400E623B6 /* TagSelectorViewTests.m */,
+				AA13CD911E71430400E623B6 /* Info.plist */,
+			);
+			path = TagSelectorViewTests;
+			sourceTree = "<group>";
+		};
+		AA13CD991E71430400E623B6 /* TagSelectorViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA13CD9A1E71430400E623B6 /* TagSelectorViewUITests.m */,
+				AA13CD9C1E71430400E623B6 /* Info.plist */,
+			);
+			path = TagSelectorViewUITests;
+			sourceTree = "<group>";
+		};
+		B6C49DE9D3693C47AA27810D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BCD1141DAAD0F184EA789C4 /* libPods-TagSelectorView.a */,
+				EA37B6DB1383D6304BA0DE3E /* libPods-TagSelectorViewTests.a */,
+				57C473A63231EFF89D3ADFF8 /* libPods-TagSelectorViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA13CD711E71430400E623B6 /* TagSelectorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA13CD9F1E71430400E623B6 /* Build configuration list for PBXNativeTarget "TagSelectorView" */;
+			buildPhases = (
+				1C8A403D4A0DD1EE269F2E2B /* [CP] Check Pods Manifest.lock */,
+				AA13CD6E1E71430400E623B6 /* Sources */,
+				AA13CD6F1E71430400E623B6 /* Frameworks */,
+				AA13CD701E71430400E623B6 /* Resources */,
+				B42463AD8173A9D2F984E847 /* [CP] Embed Pods Frameworks */,
+				E32ACA3850A2035C33DC437C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TagSelectorView;
+			productName = TagSelectorView;
+			productReference = AA13CD721E71430400E623B6 /* TagSelectorView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA13CD8A1E71430400E623B6 /* TagSelectorViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA13CDA21E71430400E623B6 /* Build configuration list for PBXNativeTarget "TagSelectorViewTests" */;
+			buildPhases = (
+				903DBA9B301102D35E92DD8E /* [CP] Check Pods Manifest.lock */,
+				AA13CD871E71430400E623B6 /* Sources */,
+				AA13CD881E71430400E623B6 /* Frameworks */,
+				AA13CD891E71430400E623B6 /* Resources */,
+				4EDEA4B680CE3B42035B967E /* [CP] Embed Pods Frameworks */,
+				9A982C19E92E6FDA2050C5E1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA13CD8D1E71430400E623B6 /* PBXTargetDependency */,
+			);
+			name = TagSelectorViewTests;
+			productName = TagSelectorViewTests;
+			productReference = AA13CD8B1E71430400E623B6 /* TagSelectorViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA13CD951E71430400E623B6 /* TagSelectorViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA13CDA51E71430400E623B6 /* Build configuration list for PBXNativeTarget "TagSelectorViewUITests" */;
+			buildPhases = (
+				081CB1E49BF327F484A56E7D /* [CP] Check Pods Manifest.lock */,
+				AA13CD921E71430400E623B6 /* Sources */,
+				AA13CD931E71430400E623B6 /* Frameworks */,
+				AA13CD941E71430400E623B6 /* Resources */,
+				F63860A51CC9CD9008CB357A /* [CP] Embed Pods Frameworks */,
+				8FB09806BE741BD8061C5DBF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA13CD981E71430400E623B6 /* PBXTargetDependency */,
+			);
+			name = TagSelectorViewUITests;
+			productName = TagSelectorViewUITests;
+			productReference = AA13CD961E71430400E623B6 /* TagSelectorViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA13CD6A1E71430400E623B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = camoufleur;
+				TargetAttributes = {
+					AA13CD711E71430400E623B6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PD6XKMBLMC;
+						ProvisioningStyle = Automatic;
+					};
+					AA13CD8A1E71430400E623B6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PD6XKMBLMC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA13CD711E71430400E623B6;
+					};
+					AA13CD951E71430400E623B6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PD6XKMBLMC;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA13CD711E71430400E623B6;
+					};
+				};
+			};
+			buildConfigurationList = AA13CD6D1E71430400E623B6 /* Build configuration list for PBXProject "TagSelectorView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA13CD691E71430400E623B6;
+			productRefGroup = AA13CD731E71430400E623B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA13CD711E71430400E623B6 /* TagSelectorView */,
+				AA13CD8A1E71430400E623B6 /* TagSelectorViewTests */,
+				AA13CD951E71430400E623B6 /* TagSelectorViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA13CD701E71430400E623B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA13CD851E71430400E623B6 /* LaunchScreen.storyboard in Resources */,
+				AA13CDAC1E71523200E623B6 /* Untitled.plist in Resources */,
+				AA13CD821E71430400E623B6 /* Assets.xcassets in Resources */,
+				AA13CD801E71430400E623B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA13CD891E71430400E623B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA13CD941E71430400E623B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		081CB1E49BF327F484A56E7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1C8A403D4A0DD1EE269F2E2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4EDEA4B680CE3B42035B967E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TagSelectorViewTests/Pods-TagSelectorViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FB09806BE741BD8061C5DBF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TagSelectorViewUITests/Pods-TagSelectorViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		903DBA9B301102D35E92DD8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A982C19E92E6FDA2050C5E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TagSelectorViewTests/Pods-TagSelectorViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B42463AD8173A9D2F984E847 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TagSelectorView/Pods-TagSelectorView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E32ACA3850A2035C33DC437C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TagSelectorView/Pods-TagSelectorView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F63860A51CC9CD9008CB357A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TagSelectorViewUITests/Pods-TagSelectorViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA13CD6E1E71430400E623B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA13CDAA1E71446000E623B6 /* TagSelectorView.m in Sources */,
+				AA13CD7D1E71430400E623B6 /* ViewController.m in Sources */,
+				AA13CDAF1E71529E00E623B6 /* SelfDataModel.m in Sources */,
+				AA13CD7A1E71430400E623B6 /* AppDelegate.m in Sources */,
+				AA13CD771E71430400E623B6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA13CD871E71430400E623B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA13CD901E71430400E623B6 /* TagSelectorViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA13CD921E71430400E623B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA13CD9B1E71430400E623B6 /* TagSelectorViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA13CD8D1E71430400E623B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA13CD711E71430400E623B6 /* TagSelectorView */;
+			targetProxy = AA13CD8C1E71430400E623B6 /* PBXContainerItemProxy */;
+		};
+		AA13CD981E71430400E623B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA13CD711E71430400E623B6 /* TagSelectorView */;
+			targetProxy = AA13CD971E71430400E623B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA13CD7E1E71430400E623B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA13CD7F1E71430400E623B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA13CD831E71430400E623B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA13CD841E71430400E623B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA13CD9D1E71430400E623B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA13CD9E1E71430400E623B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA13CDA01E71430400E623B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 609ECA5CCB9D974A2EC1CE22 /* Pods-TagSelectorView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PD6XKMBLMC;
+				INFOPLIST_FILE = TagSelectorView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.camoufleur.TagSelectorView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA13CDA11E71430400E623B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C802C9DFBF9FA66A85A942C /* Pods-TagSelectorView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PD6XKMBLMC;
+				INFOPLIST_FILE = TagSelectorView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.camoufleur.TagSelectorView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA13CDA31E71430400E623B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 963FACE9BCB3591DAD389B05 /* Pods-TagSelectorViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PD6XKMBLMC;
+				INFOPLIST_FILE = TagSelectorViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.camoufleur.TagSelectorViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagSelectorView.app/TagSelectorView";
+			};
+			name = Debug;
+		};
+		AA13CDA41E71430400E623B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55991947E3F7260F3FEE89FD /* Pods-TagSelectorViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PD6XKMBLMC;
+				INFOPLIST_FILE = TagSelectorViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.camoufleur.TagSelectorViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TagSelectorView.app/TagSelectorView";
+			};
+			name = Release;
+		};
+		AA13CDA61E71430400E623B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 889C28588EF66406A043750C /* Pods-TagSelectorViewUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PD6XKMBLMC;
+				INFOPLIST_FILE = TagSelectorViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.camoufleur.TagSelectorViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TagSelectorView;
+			};
+			name = Debug;
+		};
+		AA13CDA71E71430400E623B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A490259FE557EB4395969B9 /* Pods-TagSelectorViewUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PD6XKMBLMC;
+				INFOPLIST_FILE = TagSelectorViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.camoufleur.TagSelectorViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TagSelectorView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA13CD6D1E71430400E623B6 /* Build configuration list for PBXProject "TagSelectorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA13CD9D1E71430400E623B6 /* Debug */,
+				AA13CD9E1E71430400E623B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA13CD9F1E71430400E623B6 /* Build configuration list for PBXNativeTarget "TagSelectorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA13CDA01E71430400E623B6 /* Debug */,
+				AA13CDA11E71430400E623B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA13CDA21E71430400E623B6 /* Build configuration list for PBXNativeTarget "TagSelectorViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA13CDA31E71430400E623B6 /* Debug */,
+				AA13CDA41E71430400E623B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA13CDA51E71430400E623B6 /* Build configuration list for PBXNativeTarget "TagSelectorViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA13CDA61E71430400E623B6 /* Debug */,
+				AA13CDA71E71430400E623B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA13CD6A1E71430400E623B6 /* Project object */;
+}
