@@ -17,7 +17,6 @@
 		AA13CD901E71430400E623B6 /* TagSelectorViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA13CD8F1E71430400E623B6 /* TagSelectorViewTests.m */; };
 		AA13CD9B1E71430400E623B6 /* TagSelectorViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA13CD9A1E71430400E623B6 /* TagSelectorViewUITests.m */; };
 		AA13CDAC1E71523200E623B6 /* Untitled.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA13CDAB1E71523200E623B6 /* Untitled.plist */; };
-		AA13CDAF1E71529E00E623B6 /* SelfDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA13CDAE1E71529E00E623B6 /* SelfDataModel.m */; };
 		AAD5DACB1ED52FEA0070627B /* TagSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD5DACA1ED52FEA0070627B /* TagSelectorView.m */; };
 		D9C3D26F07455B1F87330F05 /* libPods-TagSelectorViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA37B6DB1383D6304BA0DE3E /* libPods-TagSelectorViewTests.a */; };
 		DCB087E8A282688661EF05B9 /* libPods-TagSelectorView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCD1141DAAD0F184EA789C4 /* libPods-TagSelectorView.a */; };
@@ -66,8 +65,6 @@
 		AA13CD9A1E71430400E623B6 /* TagSelectorViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagSelectorViewUITests.m; sourceTree = "<group>"; };
 		AA13CD9C1E71430400E623B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA13CDAB1E71523200E623B6 /* Untitled.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Untitled.plist; sourceTree = "<group>"; };
-		AA13CDAD1E71529E00E623B6 /* SelfDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfDataModel.h; sourceTree = "<group>"; };
-		AA13CDAE1E71529E00E623B6 /* SelfDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfDataModel.m; sourceTree = "<group>"; };
 		AAD5DAC91ED52FEA0070627B /* TagSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagSelectorView.h; sourceTree = "<group>"; };
 		AAD5DACA1ED52FEA0070627B /* TagSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagSelectorView.m; sourceTree = "<group>"; };
 		EA37B6DB1383D6304BA0DE3E /* libPods-TagSelectorViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TagSelectorViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,8 +141,6 @@
 				AA13CD791E71430400E623B6 /* AppDelegate.m */,
 				AA13CD7B1E71430400E623B6 /* ViewController.h */,
 				AA13CD7C1E71430400E623B6 /* ViewController.m */,
-				AA13CDAD1E71529E00E623B6 /* SelfDataModel.h */,
-				AA13CDAE1E71529E00E623B6 /* SelfDataModel.m */,
 				AA13CD7E1E71430400E623B6 /* Main.storyboard */,
 				AA13CDAB1E71523200E623B6 /* Untitled.plist */,
 				AA13CD751E71430400E623B6 /* Supporting Files */,
@@ -486,7 +481,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA13CD7D1E71430400E623B6 /* ViewController.m in Sources */,
-				AA13CDAF1E71529E00E623B6 /* SelfDataModel.m in Sources */,
 				AAD5DACB1ED52FEA0070627B /* TagSelectorView.m in Sources */,
 				AA13CD7A1E71430400E623B6 /* AppDelegate.m in Sources */,
 				AA13CD771E71430400E623B6 /* main.m in Sources */,

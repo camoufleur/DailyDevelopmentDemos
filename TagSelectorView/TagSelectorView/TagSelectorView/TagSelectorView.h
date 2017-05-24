@@ -10,10 +10,10 @@
 
 @interface TagSelectorModel : NSObject
 
-@property (nonatomic, strong) NSString *title;
-@property (nonatomic, strong) NSString *sectionTitle;
+@property (nonatomic, copy) NSString *title;
+@property (nonatomic, copy) NSString *sectionTitle;
 @property (nonatomic, assign) NSInteger level;
-@property (nonatomic, strong) NSArray<TagSelectorModel *> *items;
+@property (nonatomic, copy) NSArray<TagSelectorModel *> *items;
 
 @end
 

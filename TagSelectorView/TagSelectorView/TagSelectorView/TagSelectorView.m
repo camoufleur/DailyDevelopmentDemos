@@ -10,7 +10,14 @@
 
 @implementation TagSelectorModel
 
++ (NSDictionary *)modelContainerPropertyGenericClass {
+    return @{@"items" : [self class]};
+}
 
++ (NSDictionary *)modelCustomPropertyMapper {
+    return @{@"title" : @"name",
+             @"items" : @[@"rows",@"item"]};
+}
 
 @end
 
