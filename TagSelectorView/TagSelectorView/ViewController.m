@@ -14,6 +14,7 @@
 
 @property (nonatomic, strong) TagSelectorModel *model;
 @property (nonatomic, strong) TagSelectorView *tsView;
+@property (weak, nonatomic) IBOutlet UILabel *resultLabel;
 
 @end
 
@@ -36,7 +37,7 @@
         [_tsView showSelectorView];
     } else {
         _tsView = [TagSelectorView showSelectorWithSelectorModel:_model completion:^(NSArray<TagSelectorModel *> *modelArray) {
-            NSLog(@"%@--%@", modelArray[0].title, modelArray[1].title);
+            _resultLabel.text = [NSString stringWithFormat:@"%@--%@", modelArray[0].title, modelArray[1].title];
         }];
     }
 }
