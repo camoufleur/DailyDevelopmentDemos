@@ -14,4 +14,4 @@
 - 数据中需要有`level`字段, 根为`0`, 第一层(年级)为`1`, 第二层(科目)为`2`, 以此类推;
 - `sectionTitle`存在于每一层中, 方便刷新;
 
- 如果有兴趣或者查看实现思路, 移步 [GitHub](https://github.com/camoufleur/DailyDevelopmentDemos/tree/master/TagSelectorView)
+个人简书主页: [Camoufleur](http://www.jianshu.com/u/5eb32816c254)
