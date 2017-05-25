@@ -383,7 +383,6 @@
         
         [self showSelectorView];
     }
-    
 }
 
 @end
